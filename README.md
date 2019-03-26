@@ -44,7 +44,7 @@ WALS is included in the `contrib.factorization` package of the TensorFlow code b
 scipy package has standard SVD package (`scipy.linalg.svd`).
 
 
-### 2.2.3 Stochastic Gradient Descent
+#### 2.2.3 Stochastic Gradient Descent
 
 
 
