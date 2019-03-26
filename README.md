@@ -15,12 +15,12 @@ https://cloud.google.com/solutions/machine-learning/recommendation-system-tensor
 
 -- Latent factor: The matrix factorization method assumes that there is a set of attributes common to all items, with items differing in the degree to which they express these attributes. Furthermore, the matrix factorization method assumes that each user has their own expression for each of these attributes, independent of the items. In this way, a user's item rating can be approximated by summing the user's strength for each attribute weighted by the degree to which the item expresses this attribute. Intuitively, it's easy to see that these hypothetical latent factors actually exist.       
 
-- - Mathematically transform the ratings matrix to account for latent factor:   
-1) pick an arbitrary number k of latent factors .   
-2)for a set of users U of size u and items I of size i,factorize the large rating matrix R into two much smaller matrices X (the "row factor") and Y (the "column factor"). Matrix X has dimension u × k, and Y has dimension k × i. In linear algebra this is called a low-rank approximation. You can view this process as compressing the sparse information in R into the much lower dimensional spaces u × k and k × i .  
-3)The matrix R', obtained when the low-rank matrices X and Y are multiplied, represents an approximation of R, which can be seen as the prediction results. So the loss function measuring the accuracy of the approximation can be defined by over all users and items, suming the squared difference between the approximate rating and the actual rating . 
-4) It's common practice to add regularization terms to this loss function to help prevent overfitting. Adding L2 regularization terms for both row and column factors gives the following:regularization constant will be one of the model’s hyperparameters to be addressed . 
-5 ) It's common practice to add regularization terms to this loss function to help prevent overfitting. Adding L2 regularization terms for both row and column factors gives the following:regularization constant will be one of the model’s hyperparameters to be addressed . 
+-- Mathematically transform the ratings matrix to account for latent factor:   
+- pick an arbitrary number k of latent factors .   
+- for a set of users U of size u and items I of size i,factorize the large rating matrix R into two much smaller matrices X (the "row factor") and Y (the "column factor"). Matrix X has dimension u × k, and Y has dimension k × i. In linear algebra this is called a low-rank approximation. You can view this process as compressing the sparse information in R into the much lower dimensional spaces u × k and k × i .  
+- The matrix R', obtained when the low-rank matrices X and Y are multiplied, represents an approximation of R, which can be seen as the prediction results. So the loss function measuring the accuracy of the approximation can be defined by over all users and items, suming the squared difference between the approximate rating and the actual rating . 
+- It's common practice to add regularization terms to this loss function to help prevent overfitting. Adding L2 regularization terms for both row and column factors gives the following:regularization constant will be one of the model’s hyperparameters to be addressed . 
+- It's common practice to add regularization terms to this loss function to help prevent overfitting. Adding L2 regularization terms for both row and column factors gives the following:regularization constant will be one of the model’s hyperparameters to be addressed . 
 
 
 #### WALS method for matrix factorization. 
