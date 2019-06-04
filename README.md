@@ -67,6 +67,6 @@ Following the original tutorial using a GCE VM and bash script to orchestrate: h
 
 
 ## 4. Result
-Was able to have test RMSE as low as 0.98 as shown in `ml_job_job_id_wals_ml_tune_sample_logs_testRMSE_0-1` log files. Model exports (factors learnt) and logs folders are included in the repo as well and can be looked up by job_id.
+Was able to have test RMSE as low as 0.98 as shown in `ml_job_job_id_wals_ml_tune_sample_logs_testRMSE_0-1` log files. Model exports (factors learnt) and logs are included in the repo as separate folders well and can be looked up by job_id.
 
 
