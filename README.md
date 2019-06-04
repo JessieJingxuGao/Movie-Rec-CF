@@ -57,33 +57,16 @@ scipy package has standard SVD package (`scipy.linalg.svd`).
 
 
 
-
-
-
 ## 3. Data
 MovieLens
 -- Ratings in the MovieLens dataset range from 1 to 5. Empty rating entries have value 0, meaning that a given user hasn't rated the item.
 
-## 4. Workflow organization
-
-### 4.1. Baby-step: Using Datalab (Google-managed jupyter notebook) to manage the entire workflow
-
-Similar to https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/feateng/feateng.ipynb . 
-
-Last step for analytics is to predict top-k recommended items to a specific user . 
-
-Last step for workflow (after hyper-parameter tunning) is deployment . 
-
-### 4.2. A more productional flow
+## 4. Implementation
 Following the original tutorial using a GCE VM and bash script to orchestrate: https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-create-model .  
 
 
-## 5. Implementation
 
-### 5.1. Implementation under 4.1 format for Model 2.2.1
+## 4. Result
+Was able to have test RMSE as low as 0.98 as shown in `ml_job_job_id_wals_ml_tune_sample_logs_testRMSE_0-1` log files. Model exports (factors learnt) and logs folders are included in the repo as well and can be looked up by job_id.
 
-[ipynb](placeholder.ipynb)
 
-## 6. Next steps
--- evaluation: https://medium.com/recombee-blog/evaluating-recommender-systems-choosing-the-best-one-for-your-business-c688ab781a35 .  
--- create a distributed version of the algorithm .  
