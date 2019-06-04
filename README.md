@@ -1,7 +1,6 @@
 # 1. Movie-Recommendation
 
-
-https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview
+A hands-on practice following this [GCP AI Platform Tutorial](https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview).
 
 
 
