@@ -1,0 +1,611 @@
+[
+  {
+    "insertId": "i1m6f5fbzrtyj",
+    "jsonPayload": {
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559391248.367158,
+      "lineno": 48
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-06-01T12:14:08.367157936Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "8607213943403828628",
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-938413075395854518",
+      "ml.googleapis.com/trial_id": "468"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T12:14:11.633155786Z"
+  },
+  {
+    "insertId": "152t7zjfen7xrv",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559382219.078824,
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-06-01T09:43:39.078824043Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-10596808324873315041",
+      "ml.googleapis.com/trial_id": "447",
+      "compute.googleapis.com/resource_id": "4542083893739648727",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T09:43:42.274776814Z"
+  },
+  {
+    "insertId": "wr2u57fwt6jqb",
+    "jsonPayload": {
+      "created": 1559369330.375235,
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-06-01T06:08:50.375235080Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-6866628176796930158",
+      "ml.googleapis.com/trial_id": "417",
+      "compute.googleapis.com/resource_id": "1421570920884972297"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T06:08:54.058508742Z"
+  },
+  {
+    "insertId": "tzcippfw5ds7y",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559363789.005566
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-06-01T04:36:29.005565881Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "4282181970821103297",
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-10244641011209200711",
+      "ml.googleapis.com/trial_id": "404"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T04:36:32.533799201Z"
+  },
+  {
+    "insertId": "1t7sgppfq86xte",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559359201.054566
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-06-01T03:20:01.054565906Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-8961172824492544840",
+      "ml.googleapis.com/trial_id": "393",
+      "compute.googleapis.com/resource_id": "6142870693753933991"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T03:20:01.494075603Z"
+  },
+  {
+    "insertId": "z8onewfv6jc22",
+    "jsonPayload": {
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559354565.487388,
+      "lineno": 48
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-06-01T02:02:45.487387895Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-16444808934318568767",
+      "ml.googleapis.com/trial_id": "382",
+      "compute.googleapis.com/resource_id": "2734017007037735624",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T02:02:48.348273253Z"
+  },
+  {
+    "insertId": "gnoflvftfwgzx",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559349021.813655
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-06-01T00:30:21.813654899Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "8641096472250316957",
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-6954975099131201418",
+      "ml.googleapis.com/trial_id": "369"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-06-01T00:30:25.455749822Z"
+  },
+  {
+    "insertId": "1gfvusefs8k7q2",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559340100.921218
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T22:01:40.921217918Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-3725080624525157340",
+      "ml.googleapis.com/trial_id": "349",
+      "compute.googleapis.com/resource_id": "1720158249893502283",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T22:01:44.370199549Z"
+  },
+  {
+    "insertId": "1k26f2wfp0uf3h",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559335338.985264
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T20:42:18.985264062Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-599913267588074590",
+      "ml.googleapis.com/trial_id": "338",
+      "compute.googleapis.com/resource_id": "8918105945693499363"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T20:42:21.791644787Z"
+  },
+  {
+    "insertId": "1k27i2qfl5vivm",
+    "jsonPayload": {
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559329721.386296,
+      "lineno": 48
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T19:08:41.386296033Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-5360685385961325586",
+      "ml.googleapis.com/trial_id": "325",
+      "compute.googleapis.com/resource_id": "4522862128383444469"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T19:08:44.704711680Z"
+  },
+  {
+    "insertId": "1f25m71fo7f8sb",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559323853.98792,
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-05-31T17:30:53.987920045Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-14628165871675773225",
+      "ml.googleapis.com/trial_id": "314",
+      "compute.googleapis.com/resource_id": "7842430845244463839"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T17:30:57.225156910Z"
+  },
+  {
+    "insertId": "1u1n8n7fnqszwz",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559321237.743225
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-05-31T16:47:17.743225097Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-16533790988436863664",
+      "ml.googleapis.com/trial_id": "308",
+      "compute.googleapis.com/resource_id": "649486107739481877"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T16:47:21.239324215Z"
+  },
+  {
+    "insertId": "g3jpz2fnu5dc2",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559317746.058706,
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T15:49:06.058706045Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-4526419893282444094",
+      "ml.googleapis.com/trial_id": "300",
+      "compute.googleapis.com/resource_id": "3674146994074219192",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T15:49:06.410132969Z"
+  },
+  {
+    "insertId": "6yb1xofm3e37z",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559312209.879442,
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T14:16:49.879441976Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "7322471298252965974",
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-2383499396002109545",
+      "ml.googleapis.com/trial_id": "287"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T14:16:53.212052333Z"
+  },
+  {
+    "insertId": "1eb5yrffpqrh1",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559295727.96815
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T09:42:07.968149900Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "7642037781566146737",
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-5918782512918406335",
+      "ml.googleapis.com/trial_id": "248"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T09:42:10.989769027Z"
+  },
+  {
+    "insertId": "10d3eptffl004v",
+    "jsonPayload": {
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559293228.870374,
+      "lineno": 48
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-31T09:00:28.870373964Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-384784069519615622",
+      "ml.googleapis.com/trial_id": "242",
+      "compute.googleapis.com/resource_id": "1407368889966088825",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-31T09:00:32.637269685Z"
+  },
+  {
+    "insertId": "134jgw7f4hq1uj",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559225389.463029,
+      "lineno": 48,
+      "message": "test RMSE = 0.98",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T14:09:49.463028907Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-14050647174404311488",
+      "ml.googleapis.com/trial_id": "82",
+      "compute.googleapis.com/resource_id": "24645486602509695",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T14:09:52.435954214Z"
+  },
+  {
+    "insertId": "1nnwe8nf6i2y1g",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559219466.695592
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150"
+      }
+    },
+    "timestamp": "2019-05-30T12:31:06.695591926Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-9488803259652491949",
+      "ml.googleapis.com/trial_id": "68",
+      "compute.googleapis.com/resource_id": "5982679498922029701"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T12:31:10.722756515Z"
+  },
+  {
+    "insertId": "1vfpb9df35ny3v",
+    "jsonPayload": {
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559214863.401497,
+      "lineno": 48
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T11:14:23.401496887Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-6850977136699013599",
+      "ml.googleapis.com/trial_id": "57",
+      "compute.googleapis.com/resource_id": "885960654798849168",
+      "compute.googleapis.com/zone": "us-east1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T11:14:26.755568236Z"
+  },
+  {
+    "insertId": "ldgclcf1qm65b",
+    "jsonPayload": {
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559196941.784865,
+      "lineno": 48
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T06:15:41.784864902Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-16609730227829661576",
+      "ml.googleapis.com/trial_id": "14",
+      "compute.googleapis.com/resource_id": "5855980033864288915"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T06:15:44.033292631Z"
+  },
+  {
+    "insertId": "1ohxd1ng34wccg0",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559196121.964608,
+      "lineno": 48,
+      "message": "test RMSE = 0.99",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_tune_20190530_044150",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T06:02:01.964607954Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-east1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-16915290600905829803",
+      "ml.googleapis.com/trial_id": "12",
+      "compute.googleapis.com/resource_id": "5415013027164639184"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T06:02:05.544392297Z"
+  }
+]

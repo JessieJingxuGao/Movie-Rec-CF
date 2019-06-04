@@ -1,0 +1,3677 @@
+[
+  {
+    "textPayload": "Job completed successfully.",
+    "insertId": "6y57m9bmr",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:53:08.338428194Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:53:09.761290378Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438k",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188074.322352,
+      "lineno": 959,
+      "message": "Task completed successfully.",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:54.322351932Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438j",
+    "jsonPayload": {
+      "lineno": 957,
+      "message": "Clean up finished.",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188074.321617
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:54.321616888Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438i",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188074.321049,
+      "lineno": 954,
+      "message": "Module completed; cleaning up.",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:54.321048974Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438h",
+    "jsonPayload": {
+      "lineno": 48,
+      "message": "test RMSE = 1.05",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559188072.038097
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:52.038096904Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438g",
+    "jsonPayload": {
+      "lineno": 47,
+      "message": "train RMSE = 0.89",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/task.py",
+      "created": 1559188072.037563
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:52.037563085Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438f",
+    "jsonPayload": {
+      "lineno": 628,
+      "message": "<Command u'/tools/google-cloud-sdk/bin/gsutil cp -r /tmp/wals_ml_train_20190530_034326/* gs://recommendation-try/jobs/wals_ml_train_20190530_034326/model', pid 659>: process completed",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/sh.py",
+      "created": 1559188071.848728
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:51.848727941Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "sh.command",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438e",
+    "jsonPayload": {
+      "lineno": 628,
+      "message": "<Command u'/tools/google-cloud-sdk/bin/gsutil cp -r /tmp/wals_ml_train_20190530_034326/* gs://recommendation-try/jobs/wals_ml_train_20190530_034326/model', pid 659>: process started",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/sh.py",
+      "created": 1559188069.19291
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:49.192909955Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "sh.command",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438d",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/sh.py",
+      "created": 1559188069.175159,
+      "lineno": 628,
+      "message": "<Command u'/tools/google-cloud-sdk/bin/gsutil cp -r /tmp/wals_ml_train_20190530_034326/* gs://recommendation-try/jobs/wals_ml_train_20190530_034326/model'>: starting process",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:49.175158977Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "sh.command",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "1pvqlw9f3e438c",
+    "jsonPayload": {
+      "lineno": 282,
+      "message": "Train Finish: 2019-05-30 03:47:49",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/model.py",
+      "created": 1559188069.161866
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:49.161865949Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:55.477045850Z"
+  },
+  {
+    "insertId": "ofdaumg1r7co05",
+    "jsonPayload": {
+      "lineno": 975,
+      "message": "Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:00:07.0)",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.621589
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.621588945Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7co04",
+    "jsonPayload": {
+      "lineno": 975,
+      "message": "Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:00:06.0)",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.621399
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.621398925Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7co03",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.621227,
+      "lineno": 975,
+      "message": "Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:00:05.0)",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.621227025Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7co02",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.621028,
+      "lineno": 975,
+      "message": "Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.621027946Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7co01",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.62082,
+      "lineno": 916,
+      "message": "3:   N N N Y ",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.620820045Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7co00",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.620653,
+      "lineno": 916,
+      "message": "2:   Y Y Y N ",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.620652914Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzz",
+    "jsonPayload": {
+      "lineno": 916,
+      "message": "1:   Y Y Y N ",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.620474
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.620474100Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzy",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.620303,
+      "lineno": 916,
+      "message": "0:   Y Y Y N ",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.620302915Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzx",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.620123,
+      "lineno": 906,
+      "message": "DMA: 0 1 2 3 ",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.620122909Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzw",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.619929,
+      "lineno": 777,
+      "message": "Peer access not supported between device ordinals 3 and 2",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.619929075Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzv",
+    "jsonPayload": {
+      "lineno": 777,
+      "message": "Peer access not supported between device ordinals 3 and 1",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.619731
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.619730949Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzu",
+    "jsonPayload": {
+      "lineno": 777,
+      "message": "Peer access not supported between device ordinals 3 and 0",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.619562
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.619561910Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzt",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.61938,
+      "lineno": 777,
+      "message": "Peer access not supported between device ordinals 2 and 3",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.619379997Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzs",
+    "jsonPayload": {
+      "lineno": 777,
+      "message": "Peer access not supported between device ordinals 1 and 3",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.619199
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.619199037Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzr",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.618941,
+      "lineno": 777,
+      "message": "Peer access not supported between device ordinals 0 and 3",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.618941068Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzq",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Free memory: 11.10GiB",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.618742
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.618741989Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzp",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.618581,
+      "lineno": 325,
+      "message": "Total memory: 11.17GiB",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.618581056Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzo",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.618256,
+      "lineno": 325,
+      "message": "pciBusID 0000:00:07.0",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.618256092Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzn",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "major: 3 minor: 7 memoryClockRate (GHz) 0.8235",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.618091
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.618091106Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzm",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "name: Tesla K80",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.617894
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.617893934Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzl",
+    "jsonPayload": {
+      "lineno": 885,
+      "message": "Found device 3 with properties: ",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.617653
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.617652893Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzk",
+    "jsonPayload": {
+      "pathname": "tensorflow/stream_executor/cuda/cuda_gpu_executor.cc",
+      "created": 1559188066.617213,
+      "lineno": 910,
+      "message": "successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.617213010Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzj",
+    "jsonPayload": {
+      "lineno": 590,
+      "message": "creating context when one is currently active; existing: 0x4809440",
+      "levelname": "WARNING",
+      "pathname": "tensorflow/stream_executor/cuda/cuda_driver.cc",
+      "created": 1559188066.517037
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.517036914Z",
+    "severity": "WARNING",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzi",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.516857,
+      "lineno": 325,
+      "message": "Free memory: 11.10GiB",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.516856908Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzh",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.516687,
+      "lineno": 325,
+      "message": "Total memory: 11.17GiB",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.516686916Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzg",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "pciBusID 0000:00:06.0",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.516516
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.516515970Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzf",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "major: 3 minor: 7 memoryClockRate (GHz) 0.8235",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.516305
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.516304969Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnze",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "name: Tesla K80",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.516124
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.516124010Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzd",
+    "jsonPayload": {
+      "lineno": 885,
+      "message": "Found device 2 with properties: ",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.515841
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.515841007Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzc",
+    "jsonPayload": {
+      "lineno": 910,
+      "message": "successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero",
+      "levelname": "INFO",
+      "pathname": "tensorflow/stream_executor/cuda/cuda_gpu_executor.cc",
+      "created": 1559188066.515425
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.515424966Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnzb",
+    "jsonPayload": {
+      "lineno": 590,
+      "message": "creating context when one is currently active; existing: 0x4805150",
+      "levelname": "WARNING",
+      "pathname": "tensorflow/stream_executor/cuda/cuda_driver.cc",
+      "created": 1559188066.431726
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.431725978Z",
+    "severity": "WARNING",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnza",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Free memory: 11.10GiB",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.431511
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.431510925Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz9",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Total memory: 11.17GiB",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.431339
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.431339025Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz8",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "pciBusID 0000:00:05.0",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.431102
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.431102037Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz7",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.430818,
+      "lineno": 325,
+      "message": "major: 3 minor: 7 memoryClockRate (GHz) 0.8235",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.430818080Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz6",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.430614,
+      "lineno": 325,
+      "message": "name: Tesla K80",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.430613994Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz5",
+    "jsonPayload": {
+      "lineno": 885,
+      "message": "Found device 1 with properties: ",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.430301
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.430300951Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz4",
+    "jsonPayload": {
+      "pathname": "tensorflow/stream_executor/cuda/cuda_gpu_executor.cc",
+      "created": 1559188066.429745,
+      "lineno": 910,
+      "message": "successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.429744958Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz3",
+    "jsonPayload": {
+      "lineno": 590,
+      "message": "creating context when one is currently active; existing: 0x4687a90",
+      "levelname": "WARNING",
+      "pathname": "tensorflow/stream_executor/cuda/cuda_driver.cc",
+      "created": 1559188066.345154
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.345154047Z",
+    "severity": "WARNING",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz2",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Free memory: 11.10GiB",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.344961
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.344960927Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz1",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Total memory: 11.17GiB",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.344764
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.344763994Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnz0",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "pciBusID 0000:00:04.0",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.344598
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.344598054Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyz",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "major: 3 minor: 7 memoryClockRate (GHz) 0.8235",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.344414
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.344413995Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyy",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "name: Tesla K80",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188066.344233
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.344233036Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyx",
+    "jsonPayload": {
+      "lineno": 885,
+      "message": "Found device 0 with properties: ",
+      "levelname": "INFO",
+      "pathname": "tensorflow/core/common_runtime/gpu/gpu_device.cc",
+      "created": 1559188066.343998
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.343997955Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyw",
+    "jsonPayload": {
+      "pathname": "tensorflow/stream_executor/cuda/cuda_gpu_executor.cc",
+      "created": 1559188066.343415,
+      "lineno": 910,
+      "message": "successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.343415021Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyv",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/platform/cpu_feature_guard.cc",
+      "created": 1559188066.158098,
+      "lineno": 45,
+      "message": "The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.",
+      "levelname": "WARNING"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.158097982Z",
+    "severity": "WARNING",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyu",
+    "jsonPayload": {
+      "pathname": "tensorflow/core/platform/cpu_feature_guard.cc",
+      "created": 1559188066.157633,
+      "lineno": 45,
+      "message": "The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.",
+      "levelname": "WARNING"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:46.157633066Z",
+    "severity": "WARNING",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyt",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/trainer/model.py",
+      "created": 1559188065.380713,
+      "lineno": 267,
+      "message": "Train Start: 2019-05-30 03:47:45",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:45.380712985Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "tensorflow",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnys",
+    "jsonPayload": {
+      "pathname": "/root/.local/lib/python2.7/site-packages/sh.py",
+      "created": 1559188065.041451,
+      "lineno": 628,
+      "message": "<Command u'/tools/google-cloud-sdk/bin/gsutil cp -r gs://recommendation-try/data/u.data /tmp/73ce8969-1467-496d-b5fa-0386d818bd37/u.data', pid 428>: process completed",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:45.041450977Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "sh.command",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyr",
+    "jsonPayload": {
+      "lineno": 628,
+      "message": "<Command u'/tools/google-cloud-sdk/bin/gsutil cp -r gs://recommendation-try/data/u.data /tmp/73ce8969-1467-496d-b5fa-0386d818bd37/u.data', pid 428>: process started",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/sh.py",
+      "created": 1559188063.552769
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:43.552768945Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "sh.command",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "ofdaumg1r7cnyq",
+    "jsonPayload": {
+      "lineno": 628,
+      "message": "<Command u'/tools/google-cloud-sdk/bin/gsutil cp -r gs://recommendation-try/data/u.data /tmp/73ce8969-1467-496d-b5fa-0386d818bd37/u.data'>: starting process",
+      "levelname": "INFO",
+      "pathname": "/root/.local/lib/python2.7/site-packages/sh.py",
+      "created": 1559188063.5463
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:43.546299934Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "sh.command",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:49.277607053Z"
+  },
+  {
+    "insertId": "102rujfg1irfamo",
+    "jsonPayload": {
+      "pathname": "tensorflow/stream_executor/dso_loader.cc",
+      "created": 1559188056.697321,
+      "lineno": 135,
+      "message": "successfully opened CUDA library libcurand.so.8.0 locally",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.697320938Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamn",
+    "jsonPayload": {
+      "lineno": 135,
+      "message": "successfully opened CUDA library libcuda.so.1 locally",
+      "levelname": "INFO",
+      "pathname": "tensorflow/stream_executor/dso_loader.cc",
+      "created": 1559188056.696937
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.696937084Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamm",
+    "jsonPayload": {
+      "pathname": "tensorflow/stream_executor/dso_loader.cc",
+      "created": 1559188056.695914,
+      "lineno": 135,
+      "message": "successfully opened CUDA library libcufft.so.8.0 locally",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.695914030Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfaml",
+    "jsonPayload": {
+      "lineno": 135,
+      "message": "successfully opened CUDA library libcudnn.so.5 locally",
+      "levelname": "INFO",
+      "pathname": "tensorflow/stream_executor/dso_loader.cc",
+      "created": 1559188056.694552
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.694551944Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamk",
+    "jsonPayload": {
+      "lineno": 135,
+      "message": "successfully opened CUDA library libcublas.so.8.0 locally",
+      "levelname": "INFO",
+      "pathname": "tensorflow/stream_executor/dso_loader.cc",
+      "created": 1559188056.693254
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.693253993Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamj",
+    "jsonPayload": {
+      "lineno": 479,
+      "message": "Running command: python -m trainer.task --gcs-bucket gs://recommendation-try --train-file data/u.data --verbose-logging --job-dir gs://recommendation-try/jobs/wals_ml_train_20190530_034326",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188056.51272
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.512720108Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfami",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Successfully installed sh-1.12.14 wals-ml-engine-0.1",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188056.420483
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.420483112Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamh",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "      Successfully uninstalled wals-ml-engine-0.1",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188056.405599
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.405599117Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamg",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "    Uninstalling wals-ml-engine-0.1:",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188056.404652
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.404652118Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfamf",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "  Found existing installation: wals-ml-engine 0.1",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188056.401172
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.401171922Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102rujfg1irfame",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Installing collected packages: sh, wals-ml-engine",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188056.369556
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:36.369555950Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:42.876492593Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpm",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Successfully built wals-ml-engine",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.642548
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.642548084Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpl",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.636891,
+      "lineno": 325,
+      "message": "  Stored in directory: /root/.cache/pip/wheels/c3/f5/39/320f12d0c0893f1c6b99a43f7a9dc7a2017cd3137bf45db867",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.636890888Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpk",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.636322,
+      "lineno": 325,
+      "message": "  Building wheel for wals-ml-engine (setup.py): finished with status 'done'",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.636322021Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpj",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/RECORD'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.618941
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.618941068Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpi",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/METADATA'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.618574
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.618573904Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudph",
+    "jsonPayload": {
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.61826,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/WHEEL'",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.618259906Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpg",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/top_level.txt'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.617922
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.617922067Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpf",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/metadata.json'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.617547
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.617547035Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpe",
+    "jsonPayload": {
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.617208,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/DESCRIPTION.rst'",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.617208003Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpd",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'trainer/model.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.616752
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.616751909Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpc",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'trainer/wals.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.616029
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.616029024Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpb",
+    "jsonPayload": {
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.615541,
+      "lineno": 61,
+      "message": "adding 'trainer/__init__.py'",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.615540981Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudpa",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'trainer/task.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.615171
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.615170955Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp9",
+    "jsonPayload": {
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.614595,
+      "lineno": 61,
+      "message": "adding 'trainer/util.py'",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.614594936Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp8",
+    "jsonPayload": {
+      "lineno": 34,
+      "message": "creating '/tmp/pip-wheel-iVzVjU/wals_ml_engine-0.1-cp27-none-any.whl' and adding '.' to it",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188055.613657
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.613656997Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp7",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.374079,
+      "lineno": 325,
+      "message": "  Building wheel for wals-ml-engine (setup.py): started",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.374078989Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp6",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.373578,
+      "lineno": 325,
+      "message": "Building wheels for collected packages: wals-ml-engine",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.373578071Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp5",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.335117,
+      "lineno": 325,
+      "message": "  Downloading https://files.pythonhosted.org/packages/4a/22/17b22ef5b049f12080f5815c41bf94de3c229217609e469001a8f80c1b3d/sh-1.12.14-py2.py3-none-any.whl",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.335117101Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp4",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188055.16926,
+      "lineno": 325,
+      "message": "Collecting sh (from wals-ml-engine==0.1)",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:35.169260025Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp3",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Processing ./wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.914335
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.914335012Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp2",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.876544,
+      "lineno": 325,
+      "message": "DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.876543998Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp1",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.511898,
+      "lineno": 479,
+      "message": "Running command: pip install --user wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.511898040Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudp0",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.303499,
+      "lineno": 325,
+      "message": "Successfully installed wals-ml-engine-0.1",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.303498983Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoz",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.289411,
+      "lineno": 325,
+      "message": "Installing collected packages: wals-ml-engine",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.289411067Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoy",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Successfully built wals-ml-engine",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.289151
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.289150953Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudox",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "  Stored in directory: /root/.cache/pip/wheels/c3/f5/39/320f12d0c0893f1c6b99a43f7a9dc7a2017cd3137bf45db867",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.284687
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.284687042Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudow",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "  Building wheel for wals-ml-engine (setup.py): finished with status 'done'",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188054.284191
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.284190893Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudov",
+    "jsonPayload": {
+      "created": 1559188054.270075,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/RECORD'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.270075082Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudou",
+    "jsonPayload": {
+      "created": 1559188054.269697,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/METADATA'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.269696950Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudot",
+    "jsonPayload": {
+      "created": 1559188054.269379,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/WHEEL'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.269378900Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudos",
+    "jsonPayload": {
+      "created": 1559188054.269077,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/top_level.txt'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.269077062Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudor",
+    "jsonPayload": {
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/metadata.json'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188054.268635
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.268635034Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoq",
+    "jsonPayload": {
+      "created": 1559188054.26829,
+      "lineno": 61,
+      "message": "adding 'wals_ml_engine-0.1.dist-info/DESCRIPTION.rst'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.268290042Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudop",
+    "jsonPayload": {
+      "message": "adding 'trainer/model.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188054.267831,
+      "lineno": 61
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.267831087Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoo",
+    "jsonPayload": {
+      "created": 1559188054.267022,
+      "lineno": 61,
+      "message": "adding 'trainer/wals.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.267021894Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudon",
+    "jsonPayload": {
+      "message": "adding 'trainer/__init__.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188054.266526,
+      "lineno": 61
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.266525983Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudom",
+    "jsonPayload": {
+      "message": "adding 'trainer/task.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188054.266028,
+      "lineno": 61
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.266027927Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudol",
+    "jsonPayload": {
+      "created": 1559188054.265465,
+      "lineno": 61,
+      "message": "adding 'trainer/util.py'",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.265465021Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudok",
+    "jsonPayload": {
+      "lineno": 34,
+      "message": "creating '/tmp/pip-wheel-7XMt8h/wals_ml_engine-0.1-cp27-none-any.whl' and adding '.' to it",
+      "levelname": "INFO",
+      "pathname": "/usr/local/lib/python2.7/dist-packages/wheel/archive.py",
+      "created": 1559188054.264527
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:34.264527082Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "wheel",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoj",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "  Building wheel for wals-ml-engine (setup.py): started",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188053.968934
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:33.968934059Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoi",
+    "jsonPayload": {
+      "pathname": "/runcloudml.py",
+      "created": 1559188053.968011,
+      "lineno": 325,
+      "message": "Building wheels for collected packages: wals-ml-engine",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:33.968010902Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoh",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "Processing ./wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188053.390917
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:33.390917062Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudog",
+    "jsonPayload": {
+      "lineno": 325,
+      "message": "DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.",
+      "levelname": "ERROR",
+      "pathname": "/runcloudml.py",
+      "created": 1559188053.270538
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:33.270538091Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudof",
+    "jsonPayload": {
+      "lineno": 479,
+      "message": "Running command: pip install --user --upgrade --force-reinstall --no-deps wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188051.537786
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:31.537786006Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoe",
+    "jsonPayload": {
+      "message": "Installing the package: gs://recommendation-try/jobs/wals_ml_train_20190530_034326/packages/01f9f54d2652a2b099d1e325cc0f1738053da39c749bd993da4d54ec7783ce70/wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188051.537169,
+      "lineno": 526
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:31.537168979Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudod",
+    "jsonPayload": {
+      "created": 1559188050.306506,
+      "lineno": 479,
+      "message": "Running command: gsutil -q cp gs://recommendation-try/jobs/wals_ml_train_20190530_034326/packages/01f9f54d2652a2b099d1e325cc0f1738053da39c749bd993da4d54ec7783ce70/wals_ml_engine-0.1.tar.gz wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:30.306505918Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudoc",
+    "jsonPayload": {
+      "lineno": 510,
+      "message": "Downloading the package: gs://recommendation-try/jobs/wals_ml_train_20190530_034326/packages/01f9f54d2652a2b099d1e325cc0f1738053da39c749bd993da4d54ec7783ce70/wals_ml_engine-0.1.tar.gz",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py",
+      "created": 1559188050.306267
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:30.306267023Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "102ypm9g1iuudob",
+    "jsonPayload": {
+      "created": 1559188050.305449,
+      "lineno": 572,
+      "message": "Running module trainer.task.",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:30.305449008Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "us-central1-c",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:36.693753514Z"
+  },
+  {
+    "insertId": "12b1xhmg1qvfbuj",
+    "jsonPayload": {
+      "created": 1559188024.259704,
+      "lineno": 966,
+      "message": "Running task with arguments: --cluster={\"master\": [\"127.0.0.1:2222\"]} --task={\"type\": \"master\", \"index\": 0} --job={  \"scale_tier\": \"CUSTOM\",  \"master_type\": \"complex_model_m_gpu\",  \"package_uris\": [\"gs://recommendation-try/jobs/wals_ml_train_20190530_034326/packages/01f9f54d2652a2b099d1e325cc0f1738053da39c749bd993da4d54ec7783ce70/wals_ml_engine-0.1.tar.gz\"],  \"python_module\": \"trainer.task\",  \"args\": [\"--gcs-bucket\", \"gs://recommendation-try\", \"--train-file\", \"data/u.data\", \"--verbose-logging\"],  \"region\": \"us-central1\",  \"job_dir\": \"gs://recommendation-try/jobs/wals_ml_train_20190530_034326\",  \"run_on_raw_vm\": true}",
+      "levelname": "INFO",
+      "pathname": "/runcloudml.py"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "master-replica-0",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:47:04.259704113Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "cmle-training-15449946248941373296",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "9132047019848953705",
+      "compute.googleapis.com/zone": "us-central1-c"
+    },
+    "logName": "projects/my-tf-2019/logs/master-replica-0",
+    "receiveTimestamp": "2019-05-30T03:47:13.770939424Z"
+  },
+  {
+    "textPayload": "Waiting for training program to start.",
+    "insertId": "6y57m9bmi",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2019-05-30T03:44:08.107648119Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:44:09.721232831Z"
+  },
+  {
+    "textPayload": "Waiting for job to be provisioned.",
+    "insertId": "6y57m9bmh",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "my-tf-2019",
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326"
+      }
+    },
+    "timestamp": "2019-05-30T03:44:06.126212103Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:44:07.719694138Z"
+  },
+  {
+    "textPayload": "Job failed.",
+    "insertId": "6y57m9bmg",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:44:06.074296437Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:44:07.719694138Z"
+  },
+  {
+    "textPayload": "Resources are insufficient in region: us-central1. Please try a different region. If you use K80, please consider using P100 or V100 instead.",
+    "insertId": "6y57m9bmf",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:43:34.977511821Z",
+    "severity": "ERROR",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:43:36.717050507Z"
+  },
+  {
+    "textPayload": "Waiting for training program to start.",
+    "insertId": "6y57m9bme",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:43:30.944600692Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:43:32.717124760Z"
+  },
+  {
+    "textPayload": "Waiting for job to be provisioned.",
+    "insertId": "6y57m9bmd",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:43:29.251905079Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:43:30.720130140Z"
+  },
+  {
+    "insertId": "dbpi57c3in",
+    "jsonPayload": {
+      "message": "Job wals_ml_train_20190530_034326 is queued."
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:43:29.024Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:43:29.250984320Z"
+  },
+  {
+    "insertId": "dbpi57c3im",
+    "jsonPayload": {
+      "message": "Job creation request has been successfully validated."
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:43:28.585Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:43:29.250984320Z"
+  },
+  {
+    "insertId": "dbpi57c3il",
+    "jsonPayload": {
+      "message": "Validating job requirements..."
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "wals_ml_train_20190530_034326",
+        "project_id": "my-tf-2019"
+      }
+    },
+    "timestamp": "2019-05-30T03:43:28.228Z",
+    "severity": "INFO",
+    "logName": "projects/my-tf-2019/logs/ml.googleapis.com%2Fwals_ml_train_20190530_034326",
+    "receiveTimestamp": "2019-05-30T03:43:28.249352818Z"
+  }
+]
