@@ -1,6 +1,9 @@
 # 1. Movie-Recommendation
 
-A hands-on practice following this [GCP AI Platform Tutorial](https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview).
+Created a Model Overview（WIP) 
+https://docs.google.com/presentation/d/1xpmUzM-cvt-jmUmklNk29_HqwCNWxspiIp5npGO0zlo/edit?usp=drivesdk
+
+Also worked on A hands-on practice following this [GCP AI Platform Tutorial](https://cloud.google.com/solutions/machine-learning/recommendation-system-tensorflow-overview).
 
 
 
